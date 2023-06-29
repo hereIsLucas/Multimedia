@@ -25,16 +25,13 @@ function Navbar() {
         <CustomLink to="../Home" className="nav__link">Home</CustomLink>
         </li>
         <li className="nav__item">
-        <CustomLink to="../Home" className="nav__link">Blog</CustomLink>
+        <CustomLink to="../Blog" className="nav__link">Blog</CustomLink>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">Portfolio</a>
+        <CustomLink to="../AboutUs" className="nav__link">AboutUs</CustomLink>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">Skills</a>
-        </li>
-        <li className="nav__item">
-          <a href="#" className="nav__link">Contact</a>
+        <CustomLink to="../Contact" className="nav__link">Contact</CustomLink>
         </li>
       </ul>
       <div onClick={navToggle} className={icon}>
