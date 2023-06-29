@@ -1,3 +1,4 @@
+import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import React, { useState } from "react";
 import "./navbar.css";
 
@@ -14,15 +15,17 @@ function Navbar() {
       setIcon("nav__toggler toggle");
     } else setIcon("nav__toggler");
   };
+  
+
   return (
     <nav className="nav">
-      <a href="#" className="nav__brand">View</a>
+      <CustomLink to="../Home" className="nav__brand">View</CustomLink>
       <ul className={active}>
         <li className="nav__item">
-          <a href="#" className="nav__link">Home</a>
+        <CustomLink to="../Home" className="nav__link">Home</CustomLink>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">About</a>
+        <CustomLink to="../Home" className="nav__link">Blog</CustomLink>
         </li>
         <li className="nav__item">
           <a href="#" className="nav__link">Portfolio</a>
@@ -42,5 +45,16 @@ function Navbar() {
     </nav>
   );
 }
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to)
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
 
+  return (
+    <li className={isActive ? "active" : ""}>
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    </li>
+  )
+}
 export default Navbar;
