@@ -19,7 +19,7 @@ function Navbar() {
 
   return (
     <nav className="nav">
-      <CustomLink to="../Home" className="nav__brand">View</CustomLink>
+      <CustomLink to="../Home" className="nav__brand">Traveler Journeys</CustomLink>
       <ul className={active}>
         <li className="nav__item">
         <CustomLink to="../Home" className="nav__link">Home</CustomLink>
@@ -32,6 +32,9 @@ function Navbar() {
         </li>
         <li className="nav__item">
         <CustomLink to="../ContactMe" className="nav__link">ContactMe</CustomLink>
+        </li>
+        <li className="nav__item">
+        <CustomLink to="../Impressum" className="nav__link">Impressum</CustomLink>
         </li>
       </ul>
       <div onClick={navToggle} className={icon}>

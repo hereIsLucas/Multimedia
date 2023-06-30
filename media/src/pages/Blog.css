@@ -1,0 +1,30 @@
+.blog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.blog-item {
+  position: relative;
+  cursor: pointer;
+  padding: 4rem;
+  transition: transform 0.3s ease;
+}
+
+.blog-item img {
+  max-width: 100%;
+  height: auto;
+}
+.blog-item.expanded {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)scale(1.5);
+  z-index: 999;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.blog-item.collapsed {
+  position: relative;
+  transform: translate(0) scale(1);
+}

@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import AboutMe from "./pages/AboutMe";
 import ContactMe from "./pages/ContactMe";
+import Impressum from "./pages/Impressum";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/Blog" element={< Blog />} />
           <Route path="/AboutMe" element={< AboutMe />} />
           <Route path="/ContactMe" element={< ContactMe />} />
+          <Route path="/Impressum" element={< Impressum />} />
         </Routes>
       </div>
     </div>
