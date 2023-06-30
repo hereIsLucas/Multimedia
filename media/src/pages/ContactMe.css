@@ -1,0 +1,30 @@
+#outerBody {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    padding-top: 6rem;
+  }
+  #aboutUsDiv {
+    padding-top: 6rem;
+  }
+  h1 {
+    font-size: 4.4em;
+    color: rgb(249, 235, 215);
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+h2 {
+    color: rgb(249, 235, 215);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+p {
+    color: rgb(249, 235, 215);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
