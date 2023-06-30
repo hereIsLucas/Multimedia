@@ -33,6 +33,9 @@ function Navbar() {
         <li className="nav__item">
         <CustomLink to="../ContactMe" className="nav__link">ContactMe</CustomLink>
         </li>
+        <li className="nav__item">
+        <CustomLink to="../Impressum" className="nav__link">Impressum</CustomLink>
+        </li>
       </ul>
       <div onClick={navToggle} className={icon}>
         <div className="line1"></div>
