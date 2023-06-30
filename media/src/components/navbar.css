@@ -16,6 +16,7 @@ li {
 .nav a {
   text-decoration: none;
   opacity: 4;
+  font-weight: bold;
   text-shadow:
       0 0 15px #fff;
   color: rgb(249, 235, 215);

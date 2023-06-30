@@ -19,7 +19,7 @@ function Navbar() {
 
   return (
     <nav className="nav">
-      <CustomLink to="../Home" className="nav__brand">View</CustomLink>
+      <CustomLink to="../Home" className="nav__brand">Traveler Journeys</CustomLink>
       <ul className={active}>
         <li className="nav__item">
         <CustomLink to="../Home" className="nav__link">Home</CustomLink>
