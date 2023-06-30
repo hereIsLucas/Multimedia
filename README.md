@@ -3,15 +3,14 @@
 
 
 
-Versicherungsrechner-React is a `Gallerie` that allows `Users` to `See my fotos from a Backend`.
-
-With this Calculator can you get the percentage of your coverage as well as if you are well insuranced or you're loosing money.
+Versicherungsrechner-React is a `Gallerie` that allows `Users` to `See my fotos that I took on my vacations to Indonesia.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 * You have a `Windows` machine. State which OS is supported/which is not.
 * You have read `this README.md`.
+* If on a laptop we recommend to zoom out 80%
 
 ## Installing this project
 
@@ -19,24 +18,16 @@ To install this projekt, follow these steps:
 
 Windows:
 
+* git clone https://github.com/hereIsLucas/Multimedia.git
 * npm install
-* 
-* 
-
-## Using the Dockerfile 
-
-* Download the Dockerfile
-* docker build -t <my-react-app> .
-* docker run -p 3000:3000 my-react-app
   
-
 ## Using Versicherungsrechner-React
 
 To use this, follow these steps:
 
 
-npm start
-
+* npm start
+* enjoy
 
 
 ## Contributing to Versicherungsrechner-React
