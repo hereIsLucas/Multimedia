@@ -28,7 +28,7 @@ function Navbar() {
         <CustomLink to="../Blog" className="nav__link">Blog</CustomLink>
         </li>
         <li className="nav__item">
-        <CustomLink to="../AboutUs" className="nav__link">AboutUs</CustomLink>
+        <CustomLink to="../AboutMe" className="nav__link">AboutMe</CustomLink>
         </li>
         <li className="nav__item">
         <CustomLink to="../Contact" className="nav__link">Contact</CustomLink>
