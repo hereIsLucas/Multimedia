@@ -41,7 +41,7 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 ## Contributors
 * [@hereIsLucas](https://github.com/hereIsLucas) 📖
 ### Fotographer
-
+* [@hereIsLucas](https://github.com/hereIsLucas) 📖
 ## Contact
 
 If you want to contact me you can reach me at <lucas.heroin@lernende.bbw.ch>.
