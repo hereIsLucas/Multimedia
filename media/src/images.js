@@ -1,12 +1,7 @@
-import image1 from './pictures/1.jpg';
 import image1a from './pictures/1a.jpg';
-import image2 from './pictures/2.jpg';
 import image2a from './pictures/2a.jpg';
-import image3 from './pictures/3.jpg';
 import image3a from './pictures/3a.jpg';
-import image4 from './pictures/4.jpg';
 import image4a from './pictures/4a.jpg';
-import image5 from './pictures/5.jpg';
 import image5a from './pictures/5a.jpg';
 import image6 from './pictures/6.jpg';
 import image7 from './pictures/7.jpg';
@@ -37,15 +32,10 @@ import image30 from './pictures/30.jpg';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
-    image1,
     image1a,
-    image2,
     image2a,
-    image3,
     image3a,
-    image4,
     image4a,
-    image5,
     image5a,
     image6,
     image7,

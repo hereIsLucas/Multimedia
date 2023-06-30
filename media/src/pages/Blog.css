@@ -1,0 +1,15 @@
+.blog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.blog-item {
+ 
+  padding: 4rem;
+}
+
+.blog-item img {
+  max-width: 100%;
+  height: auto;
+}

@@ -8,7 +8,7 @@ export default function AboutUs() {
             <div id='body'>
                 <h1>About Me</h1>
                 <p>
-                    Hello, I'm Lucas! I am a passionate and dedicated photographer based in [Your Location]. Photography is not just a hobby for me, but a way of life. It allows me to capture the beauty and essence of the world around us, preserving precious moments in time.
+                    Hello, I'm Lucas! I am a passionate and dedicated photographer based in Indonesia. Photography is not just a hobby for me, but a way of life. It allows me to capture the beauty and essence of the world around us, preserving precious moments in time.
                 </p>
                 <br />
                 <p>

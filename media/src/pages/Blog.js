@@ -1,24 +1,18 @@
 import React from 'react'
+import './Blog.css';
+import images from '../images';
+
 
 export default function Blog() {
     return (
-        <div>
-            <div>
-                
+        <div id='body'>
+            <div className="blog">
+                {images.map((image, index) => (
+                    <div className="blog-item" key={index}>
+                        <img src={image} alt={'Image ${index + 1}'} />
+                    </div>
+                ))}
             </div>
-            <h1>Test</h1>
-            <p>hello</p>
-            <p>hello</p>
-
-            <p>hello</p>
-
-            <p>hello</p>
-
-            <p>hello</p>
-
-            <p>hello</p>
-
-
         </div>
     )
 }
