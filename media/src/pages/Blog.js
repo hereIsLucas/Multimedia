@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Blog.css';
 import images from '../images';
+import {Cloudinary} from "@cloudinary/url-gen";
 
 export default function Blog() {
   const [expandedIndex, setExpandedIndex] = useState(-1);
